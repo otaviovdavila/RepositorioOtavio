@@ -34,6 +34,9 @@ class Controller {
             case 'logado':
                 $this->showTelaDeLogadoView();
                 break;
+            case 'perfil':
+                $this->showTelaDePerfilView();
+                break;
         }
     }
     
@@ -54,6 +57,9 @@ class Controller {
         include 'view/telaLogadoView.php';
     }
     
+    private function showTelaDePerfilView(){ //mysql_
+        include 'view/telaPerfilView.php';
+    }
     
 }
 
