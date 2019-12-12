@@ -1,6 +1,7 @@
 
 <?php 
-if(isset($info)){
+
+if(isset($reslt)){
     echo $info;
 }
 ?>
